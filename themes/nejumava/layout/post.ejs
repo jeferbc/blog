@@ -1,0 +1,16 @@
+<div class="row">
+    <br>
+<div class="panel panel-info">
+    <div class="panel-heading">
+        <h3 class="panel-title">
+            <strong><%- page.title %></strong>
+        </h3>
+    </div>
+    <div class="panel-body">
+        <div class='text-muted'>
+            <%= date(page.date, config.date_format) %>
+        </div>
+        <%- page.content %>
+    </div>
+</div>
+</div>
